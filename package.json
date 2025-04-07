@@ -1,0 +1,22 @@
+{
+  "name": "hostezzajs",
+  "version": "1.0.0",
+  "description": "Бот для сервера Hostezza",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bybla/hostezzajs.git"
+  },
+  "author": "bybla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bybla/hostezzajs/issues"
+  },
+  "homepage": "https://github.com/bybla/hostezzajs#readme",
+  "dependencies": {
+    "npm": "^11.2.0"
+  }
+}
