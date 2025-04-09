@@ -1,0 +1,22 @@
+{
+    "bgLevel": {
+        "id": 0,
+        "displayName": "Смена фона у ЛВЛ карточки",
+        "description": "ytytyt",
+        "price": 200
+    }
+    ,
+    "colorRole": {
+        "id": 0,
+        "displayName": "Смена цвета ника",
+        "description": "ytytyt",
+        "price": 50
+    },
+
+    "nameChange": {
+        "id": 0,
+        "displayName": "Смена ника",
+        "description": "ytytyt",
+        "price": 25
+    }
+}

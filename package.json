@@ -2,8 +2,11 @@
   "name": "hostezzajs",
   "version": "1.0.0",
   "description": "Бот для сервера Hostezza",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "run": "npm run commandReg run",
+    "start": "node src/index.js",
+    "commandReg": "node src/deploy-commands.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +20,19 @@
   },
   "homepage": "https://github.com/bybla/hostezzajs#readme",
   "dependencies": {
-    "npm": "^11.2.0"
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "npm": "^11.2.0",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@types/node": "^22.14.0",
+    "@types/ws": "^8.18.1",
+    "eslint": "^9.24.0",
+    "eslint-plugin-jsdoc": "^50.6.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
